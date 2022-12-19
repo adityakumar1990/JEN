@@ -12,7 +12,7 @@ elif sys.argv[1]=="prod":
     print("Deploying the code in dev")
 else :
     print("Deploying the other code in not respected env")
-
+print("This is to test the git polling in jenkins")
 if sys.argv[2]:
     print("In case of true!!")
 else:
